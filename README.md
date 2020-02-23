@@ -7,11 +7,11 @@ These are the notebooks I forked from this youtube video. Link is here:https://w
 1. [tqdm Error while running encode_images.py](https://github.com/pbaylies/stylegan-encoder/issues/41#issuecomment-568890957)
 
 The problem was in the tqdm version pre-installed in google colab.
-I had to downgrade to tqdm==4.24.0
+Downgrade it to tqdm==4.24.0
 `!pip install --force tqdm==4.24.0`
 
 2. [OSError: Google Drive quota exceeded](https://github.com/pbaylies/stylegan-encoder/issues/41#issuecomment-568738429)
 
-Remember to only change the ID hash in the url, not the shareable link of the google file.
+Remember to only change the ID hash in the url. Do not directly use the shareable link of the google file.
 
  
